@@ -103,7 +103,6 @@ Now, let's learn a little bit about why SASS is so cool...
   * Notice how these styles are not currently being used? Well they're not hooked up anywhere yet. Let's change that by importing your **nav.scss** into your **stylesheet.scss**. Do this by-
   ```
   @import 'nav';
-
   ```
   at the top of your **stylesheet.scss** file.
 

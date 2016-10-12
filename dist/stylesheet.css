@@ -1,0 +1,26 @@
+/*# sourceMappingURL=stylesheet.scss.map */
+.fake-nav {
+  height: 150px;
+  width: 100%;
+  background: #2c8eaf; }
+
+body {
+  font-family: sans-serif;
+  color: #6b7c40; }
+
+.testing .inside-testing {
+  font-size: 5em; }
+  .testing .inside-testing:hover {
+    background-color: #78cf12; }
+
+.square1 {
+  height: 40px;
+  width: 40px;
+  background-color: #b8359e; }
+
+.square2 {
+  height: 100px;
+  width: 100px;
+  background-color: #514653; }
+
+/*# sourceMappingURL=stylesheet.css.map */

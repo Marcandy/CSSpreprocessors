@@ -1,0 +1,30 @@
+
+
+/*# sourceMappingURL=stylesheet.scss.map */
+@import 'nav';
+
+$primary-fontcolor: rgb(107, 124, 64);
+$primary-fontface: sans-serif;
+
+@mixin style-box($length-width, $color) {
+	height: $length-width;
+	width: $length-width;
+	background-color: $color;
+}
+
+body {
+	font-family: $primary-fontface;
+	color: $primary-fontcolor,
+}
+
+.testing {
+	.inside-testing {
+		font-size: 5em;
+		&:hover{
+			background-color: rgb(120, 207, 18);
+		}
+	}
+}
+
+ .square1 {@include style-box(40px, rgb(184, 53, 158))}
+ .square2 {@include style-box(100px, rgb(81, 70, 83))}
